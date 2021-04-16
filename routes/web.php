@@ -18,5 +18,9 @@ use Illuminate\Support\Facades\Route;
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/', [App\Http\Controllers\MainController::class, 'index'])->name('home');
-Route::post('/', [App\Http\Controllers\MainController::class, 'register'])->name('home.register');
+Route::get('/', function() {
+    return redirect('/home');
+});
+
+Route::get('/home', [App\Http\Controllers\MainController::class, 'index'])->name('home');
+Route::post('/home', [App\Http\Controllers\MainController::class, 'register'])->name('home.register');

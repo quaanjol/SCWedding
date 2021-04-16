@@ -91,7 +91,7 @@
             @if(session($msg))
             <div class="bg-{{ $msg }}">
                 <div style="text-align: center; text-transform: capitalize;">
-                    {{ $session($msg) }}
+                    {{ session($msg) }}
                 </div>
             </div>
             @endif
@@ -416,7 +416,7 @@
                             <p class="desc-form text-center">
                                Hãy cho chúng tôi biết<br>bạn sẽ đến chung vui nhé
                             </p>
-                            <form id="attend-form" action="/" method="post">
+                            <form action="{{ route('home.register') }}" method="post">
                                 @csrf
                                 <div class="form-row">
                                     <div class="form-group col-md-12">
@@ -455,39 +455,7 @@
             </div>
         </div>
     </div>
-    <form id="attend-form" action="{{ route('home.register') }}" method="post">
-                                @csrf
-                                <div class="form-row">
-                                    <div class="form-group col-md-12">
-                                        <label for="inputname" class="d-block w-100 text-center">Họ và Tên</label>
-                                        <input id="inputname" type="text" class="d-block w-100" name="name" placeholder="" required="">
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-group col-md-12">
-                                        <label for="inputemail" class="d-block w-100 text-center">Email</label>
-                                        <input id="inputemail" type="email" class="d-block w-100" name="email" placeholder="" required="">
-                                    </div>
-                                </div>
-                                <div class="attend-wrap">
-                                    <h4>Bạn sẽ tham dự chứ?</h4>
-                                    <label class="label-input">
-                                        <input type="radio" name="attend" value="1" checked=""><span>Có, tôi sẽ tham dự</span>
-                                    </label>
-                                    <label class="label-input">
-                                        <input type="radio" name="attend" value="0"><span>Xin lỗi, tôi không thể tham dự</span>
-                                    </label>
-                                </div>
-                                <p>
-                                    <textarea name="message" cols="40" rows="6" placeholder="Lời chúc"></textarea>
-                                </p>
-                                <div class="text-center">
-                                    <!-- <input type="hidden" value="" name="nonce">
-                                    <input type="hidden" value="" name="ajax_url">
-                                    <input type="hidden" value="" name="post_id"> -->
-                                    <input class="btn btn-submit" type="submit" value="Gửi">
-                                </div>
-                            </form>
+
     <script src="https://endfa.vn/_endfatemplate/temp_13/js/jquery-3.4.1.min.js" type="text/javascript"></script>
     <script src="https://endfa.vn/_endfatemplate/temp_13/js/lib.js" type="text/javascript"></script>
     <script src="https://endfa.vn/_endfatemplate/temp_13/js/jquery.magnific-popup.js" type="text/javascript"></script>
@@ -495,7 +463,7 @@
     <script src="https://endfa.vn/_endfatemplate/temp_13/js/owl.carousel.js" type="text/javascript"></script>
     <script src="https://endfa.vn/_endfatemplate/temp_13/js/attend_script.js" type="text/javascript"></script>
     <script src="https://endfa.vn/_endfatemplate/temp_13/js/script.js" type="text/javascript"></script>
-    <script>
+    <!-- <script>
     ! function(f, b, e, v, n, t, s) {
         if (f.fbq) return;
         n = f.fbq = function() {
@@ -547,7 +515,7 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-129171871-1');
-    </script>
+    </script> -->
 </body>
 
 </html>

@@ -25,7 +25,8 @@ class MainController extends Controller
         $info->email = $email;
         $info->attend = $attend;
         $info->message = $message;
-        dd($info);
+        // dd($info);
+        // die();
         Mail::to('leminhsieu123@gmail.com')->send(new RegisterMail($info));
         $request->session()->flash('success', 'Cảm ơn bạn đã đăng ký. Xin hẹn gặp lại bạn tại lẽ cưới.');
         return redirect()->back();
