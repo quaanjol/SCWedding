@@ -43,7 +43,7 @@
 
 <body>
     <section id="masthead" class="center">
-        <div class="images-bg" style="background-image: url('Image/bannerW.jpg');">
+        <div class="images-bg" style="background-image: url('../../public/user/Image/bannerW.jpg');">
         </div>
         <div class="container">
             <p class="suptitle">Lễ Thành Hôn</p>
@@ -69,13 +69,13 @@
             <div class="main-menu-wrap menu-wrap">
                 <ul class="nav main-menu menu center">
                     <li class="active">
-                        <a href="#introduce" title="Gi?i thi?u">Giới thiệu</a>
+                        <a href="#introduce" title="Giới thiệu">Giới thiệu</a>
                     </li>
                     <li>
                         <a href="#story" title="Chặng đường đã qua">Chặng đường đã qua</a>
                     </li>
                     <li>
-                        <a href="#gallery" title="K? ni?m">Kỉ niệm</a>
+                        <a href="#gallery" title="Kỉ niệm">Kỉ niệm</a>
                     </li>
                 </ul>
                 <div class="background-menu">
@@ -138,7 +138,7 @@
                 </div>
             </div>
         </div>
-        <div id="invite" class="content-wrap" style="background-image: url('Image/Banner2.jpg');" class="" data-stellar-background-ratio="0.5">
+        <div id="invite" class="content-wrap" style="background-image: url('../../public/user/Image/Banner2.jpg');" class="" data-stellar-background-ratio="0.5">
             <div class="invite-content">
                 <div class="text-center">
                     <img src="https://endfa.vn/_endfatemplate/temp_13/images/icon-section.png" alt="icon">
