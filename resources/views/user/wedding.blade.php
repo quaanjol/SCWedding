@@ -119,7 +119,7 @@
                             <div class="wrap-image">
                                 <div class="b">
                                     <div class="p">
-                                        <img class="groom-img" src="{{ URL::asset('user/Image/avaCD.jpg') }}" alt="groom img">
+                                        <img class="groom-img" src="{{ URL::asset('user/Image/29.jpg') }}" alt="groom img">
                                     </div>
                                 </div>
                             </div>
@@ -137,7 +137,7 @@
                             <div class="wrap-image">
                                 <div class="b">
                                     <div class="p">
-                                        <img class="bride-img" src="{{ URL::asset('user/Image/avaCD.jpg') }}" alt="bride img">
+                                        <img class="bride-img" src="{{ URL::asset('user/Image/35.jpg') }}" alt="bride img">
                                     </div>
                                 </div>
                             </div>
@@ -341,7 +341,7 @@
                     <div class="owl-carousel owl-theme popup-gallery">
                         <div class="item-wrap">
                             <div class="pic-item">
-                                <img class="img-fluid" src="{{ URL::asset('user/Image/img7.jpg') }}" alt="Minh Siêu & Bảo Chi" />
+                                <img class="img-fluid" style="object-fit:cover;" src="{{ URL::asset('user/Image/img7.jpg') }}" alt="Minh Siêu & Bảo Chi" />
                             </div>
                             <a class="view" href="{{ URL::asset('user/Image/img7.jpg') }}" data-image="{{ URL::asset('user/Image/img7.jpg') }}" title="Minh Siêu & Bảo Chi">
                             </a>
@@ -383,9 +383,9 @@
                         </div>
                         <div class="item-wrap">
                             <div class="pic-item">
-                                <img class="img-fluid" src="{{ URL::asset('user/Image/img13.jpg') }}" alt="Minh Siêu & Bảo Chi" />
+                                <img class="img-fluid" src="{{ URL::asset('user/Image/img13.JPG') }}" alt="Minh Siêu & Bảo Chi" />
                             </div>
-                            <a class="view" href="{{ URL::asset('user/Image/img13.jpg') }}" data-image="{{ URL::asset('user/Image/img13.jpg') }}" title="Minh Siêu & Bảo Chi">
+                            <a class="view" href="{{ URL::asset('user/Image/img13.JPG') }}" data-image="{{ URL::asset('user/Image/img13.JPG') }}" title="Minh Siêu & Bảo Chi">
                             </a>
                         </div>
                     </div>
@@ -394,7 +394,7 @@
         </div>
     </section>
     <section class="footer text-center">
-        <div class="images-bg" style="background-image: url('{{ URL::asset('user/Image/img14.jpg') }}');">
+        <div class="images-bg" style="background-image: url('{{ URL::asset('user/Image/img14.JPG') }}');">
         </div>
         <div class="container">
             <div class="footer-logo">
