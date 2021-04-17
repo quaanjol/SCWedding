@@ -18,8 +18,8 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:description" content="Kính mời các bạn tham gia chung vui.">
     <meta name="twitter:title" content="Minh Siêu - Bảo Chi">
-    <link rel="shortcut icon" type="image/jpg" href="{{ URL::asset('user/Image/favicon.ico') }}"/>
-    <title> 
+    <link rel="shortcut icon" type="image/jpg" href="{{ URL::asset('user/Image/wedding-rings.png') }}"/>
+    <title>
         Minh Siêu - Bảo Chi
     </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -204,7 +204,7 @@
                                     <p>Tầng 3, Trung tâm <br>sự kiện & tiệc cưới CTM PLACE </p>
                                 </div>
                                 <div class="btn-map">
-                                    <a href="" target="_blank" title="map">Xem bản đồ</a>
+                                    <a href="https://www.google.com/maps/place/CTM+Palace/@21.0424329,105.7876945,17z/data=!3m1!4b1!4m5!3m4!1s0x3135ab313282ca37:0x93c5760e067d47f4!8m2!3d21.0424279!4d105.7898832?hl=vi-VN" target="_blank" title="map">Xem bản đồ</a>
                                 </div>
                             </div>
                         </div>
@@ -238,7 +238,7 @@
                                     <p>Tầng 3, Trung tâm <br>sự kiện & tiệc cưới CTM PLACE </p>
                                 </div>
                                 <div class="btn-map">
-                                    <a href="" target="_blank" title="map">Xem bản đồ</a>
+                                    <a href="https://www.google.com/maps/place/CTM+Palace/@21.0424329,105.7876945,17z/data=!3m1!4b1!4m5!3m4!1s0x3135ab313282ca37:0x93c5760e067d47f4!8m2!3d21.0424279!4d105.7898832?hl=vi-VN" target="_blank" title="map">Xem bản đồ</a>
                                 </div>
                             </div>
                         </div>
