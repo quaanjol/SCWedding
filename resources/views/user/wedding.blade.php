@@ -29,14 +29,30 @@
     <link rel="stylesheet" href="https://endfa.vn/_endfatemplate/temp_13/css/style.css" type="text/css">
     <style>
         #masthead .title {
-          word-spacing: 0.3rem;
+            word-spacing: 0.3rem;
         }
         #masthead .title >span {
-          text-transform: capitalize;
+            text-transform: capitalize;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
+        #masthead .title .and-sym {
+            font-size: 2.1rem;
+        }
         .bg-success {
             background-color:lightgreen;
+        }
+
+        @media (min-width: 325px) and (max-width: 767px) {
+            #masthead .title >span {
+                text-transform: capitalize;
+                font-size: 80px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
         }
     </style>
 </head>
