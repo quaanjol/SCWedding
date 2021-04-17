@@ -33,9 +33,6 @@
         }
         #masthead .title >span {
             text-transform: capitalize;
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
 
         #masthead .title .and-sym {
