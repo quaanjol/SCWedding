@@ -43,7 +43,7 @@
 
 <body>
     <section id="masthead" class="center">
-        <div class="images-bg" style="background-image: url('../../public/user/Image/bannerW.jpg');">
+        <div class="images-bg" style="background-image: url('{{ URL::asset('user/Image/bannerW.jpg') }}');">
         </div>
         <div class="container">
             <p class="suptitle">Lễ Thành Hôn</p>
@@ -138,7 +138,7 @@
                 </div>
             </div>
         </div>
-        <div id="invite" class="content-wrap" style="background-image: url('../../public/user/Image/Banner2.jpg');" class="" data-stellar-background-ratio="0.5">
+        <div id="invite" class="content-wrap" style="background-image: url('{{ URL::asset('user/Image/bannerW.jpg') }}');" class="" data-stellar-background-ratio="0.5">
             <div class="invite-content">
                 <div class="text-center">
                     <img src="https://endfa.vn/_endfatemplate/temp_13/images/icon-section.png" alt="icon">
