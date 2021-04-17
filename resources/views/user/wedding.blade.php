@@ -18,7 +18,8 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:description" content="Kính mời các bạn tham gia chung vui.">
     <meta name="twitter:title" content="Minh Siêu - Bảo Chi">
-    <title>
+    <link rel="shortcut icon" type="image/jpg" href="{{ URL::asset('user/Image/favicon.ico') }}"/>
+    <title> hnkk;mnhjdud8u f
         Minh Siêu - Bảo Chi
     </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -342,49 +343,49 @@
                             <div class="pic-item">
                                 <img class="img-fluid" src="{{ URL::asset('user/Image/img7.jpg') }}" alt="Minh Siêu & Bảo Chi" />
                             </div>
-                            <a class="view" href="" data-image="{{ URL::asset('user/Image/img7.jpg') }}" title="Minh Siêu & Bảo Chi">
+                            <a class="view" href="{{ URL::asset('user/Image/img7.jpg') }}" data-image="{{ URL::asset('user/Image/img7.jpg') }}" title="Minh Siêu & Bảo Chi">
                             </a>
                         </div>
                         <div class="item-wrap">
                             <div class="pic-item">
                                 <img class="img-fluid" src="{{ URL::asset('user/Image/img8.jpg') }}" alt="Minh Siêu & Bảo Chi" />
                             </div>
-                            <a class="view" href="" data-image="{{ URL::asset('user/Image/img8.jpg') }}" title="Minh Siêu & Bảo Chi">
+                            <a class="view" href="{{ URL::asset('user/Image/img8.jpg') }}" data-image="{{ URL::asset('user/Image/img8.jpg') }}" title="Minh Siêu & Bảo Chi">
                             </a>
                         </div>
                         <div class="item-wrap">
                             <div class="pic-item">
                                 <img class="img-fluid" src="{{ URL::asset('user/Image/img9.jpg') }}" alt="Minh Siêu & Bảo Chi" />
                             </div>
-                            <a class="view" href="" data-image="{{ URL::asset('user/Image/img9.jpg') }}" title="Minh Siêu & Bảo Chi">
+                            <a class="view" href="{{ URL::asset('user/Image/img9.jpg') }}" data-image="{{ URL::asset('user/Image/img9.jpg') }}" title="Minh Siêu & Bảo Chi">
                             </a>
                         </div>
                         <div class="item-wrap">
                             <div class="pic-item">
                                 <img class="img-fluid" src="{{ URL::asset('user/Image/img10.jpg') }}" alt="Minh Siêu & Bảo Chi" />
                             </div>
-                            <a class="view" href="" data-image="{{ URL::asset('user/Image/img10.jpg') }}" title="Minh Siêu & Bảo Chi">
+                            <a class="view" href="{{ URL::asset('user/Image/img10.jpg') }}" data-image="{{ URL::asset('user/Image/img10.jpg') }}" title="Minh Siêu & Bảo Chi">
                             </a>
                         </div>
                         <div class="item-wrap">
                             <div class="pic-item">
                                 <img class="img-fluid" src="{{ URL::asset('user/Image/img11.jpg') }}" alt="Minh Siêu & Bảo Chi" />
                             </div>
-                            <a class="view" href="" data-image="{{ URL::asset('user/Image/img11.jpg') }}" title="Minh Siêu & Bảo Chi">
+                            <a class="view" href="{{ URL::asset('user/Image/img11.jpg') }}" data-image="{{ URL::asset('user/Image/img11.jpg') }}" title="Minh Siêu & Bảo Chi">
                             </a>
                         </div>
                         <div class="item-wrap">
                             <div class="pic-item">
                                 <img class="img-fluid" src="{{ URL::asset('user/Image/img12.jpg') }}" alt="Minh Siêu & Bảo Chi" />
                             </div>
-                            <a class="view" href="" data-image="{{ URL::asset('user/Image/img12.jpg') }}" title="Minh Siêu & Bảo Chi">
+                            <a class="view" href="{{ URL::asset('user/Image/img12.jpg') }}" data-image="{{ URL::asset('user/Image/img12.jpg') }}" title="Minh Siêu & Bảo Chi">
                             </a>
                         </div>
                         <div class="item-wrap">
                             <div class="pic-item">
                                 <img class="img-fluid" src="{{ URL::asset('user/Image/img13.jpg') }}" alt="Minh Siêu & Bảo Chi" />
                             </div>
-                            <a class="view" href="" data-image="{{ URL::asset('user/Image/img13.jpg') }}" title="Minh Siêu & Bảo Chi">
+                            <a class="view" href="{{ URL::asset('user/Image/img13.jpg') }}" data-image="{{ URL::asset('user/Image/img13.jpg') }}" title="Minh Siêu & Bảo Chi">
                             </a>
                         </div>
                     </div>
